@@ -1,8 +1,10 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 
 header {
     display: flex;
@@ -14,6 +16,7 @@ header {
 
 header h1 {
     font-size: 30px;
+
 }
 
 header h1:hover {
@@ -34,6 +37,14 @@ nav ul a {
     text-decoration-thickness: 3px;
     color: white;
 }
+
+nav ul a:hover {
+    color: var(--accent-color);
+    text-decoration-color: var(--accent-color) ;
+}
+
+
+
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/snow-hero-image.jpg");
